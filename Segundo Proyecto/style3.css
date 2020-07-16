@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* #111D5E azul*/
+    /* #a3ff15 verde claro */
+    /* #033949 azul verdoso */
+}
+/* fondo */
+header{
+    background-image: url(imagenes/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+h1{
+    position: absolute;
+    margin-top: 18%;
+    padding-left: 1%;
+    font-size: 40px;
+    font-family: 'Notable', sans-serif;
+}
+.logo{
+    position: fixed;
+    width: 9%;
+    top: 45%;
+}
+/* botones */
+.botones{
+    position: absolute;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    padding: 2%;
+}
+.botones a{
+    text-align: center;
+    padding: 13%;
+    text-decoration: none;
+    color: #033949;
+}
+.botones a:hover{
+    color: #a3ff15;
+}
+/* texto */
+h2{
+    text-align: center;
+    border: double black;
+    font-family: 'Poiret One', cursive, #033949;
+    padding: 10px;
+}
+main p{
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    margin: 2% 25%;
+    width: 50%
+}
+/* contact */
+main a{
+    color: #033949;
+    text-decoration: none;
+}
+main a:hover{
+	color: #a3ff15;
+}
